@@ -56,3 +56,45 @@
     grid-row: 1;
   }
 }
+
+/* The guides link stays available when the full navigation is condensed. */
+@media (max-width: 880px) {
+  .header .navlinks {
+    display: flex;
+    gap: 14px;
+  }
+
+  .header .navlinks > a {
+    display: none;
+  }
+
+  .header .navlinks > :is(.about-nav, .roadmap-nav, .guides-nav) {
+    display: inline;
+    white-space: nowrap;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 520px) {
+  .header.wrap {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 10px 14px;
+    padding-block: 14px;
+  }
+
+  .header .navigation {
+    display: contents;
+  }
+
+  .header .navlinks {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    flex-wrap: wrap;
+  }
+
+  .header .languages {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}

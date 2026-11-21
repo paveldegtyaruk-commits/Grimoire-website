@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080808">
+  <title>Редактор состояний · Планшет и компьютер — Grimoire</title>
+  <meta name="description" content="Создавайте временные эффекты, условия их применения и стадии.">
+  <link rel="canonical" href="https://grimoireapp.app/guides/condition-editor/">
+  <link rel="icon" type="image/png" href="/assets/icon.png">
+  <link rel="stylesheet" href="/style.css?v=20261121-guide-devices">
+  <link rel="stylesheet" href="/guides/guides.css?v=20261121-guide-devices">
+</head>
+<body>
+  <a class="skip" href="#main">Перейти к содержимому</a>
+  <header class="header wrap"><a class="brand" href="/index.html" aria-label="Grimoire — Главная"><svg viewBox="0 0 24 30" fill="none" aria-hidden="true"><path d="M4 3h15v23H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z" stroke="currentColor"/><path d="M5 3v23M2 23h17M10 10l3-3 3 3-3 3-3-3Z" stroke="currentColor"/></svg>GRIMOIRE</a>
+      <nav class="navigation" aria-label="Навигация">
+        <div class="navlinks">
+          <a href="/index.html#features">Возможности</a>
+          <a class="about-nav" href="/about/index.html">О проекте</a>
+          <a class="roadmap-nav" href="/roadmap/">Дорожная карта</a><a class="guides-nav" href="/guides/" aria-current="page">Гайды</a>
+          <a href="/support/index.html">Поддержка</a>
+        </div>
+        <div class="languages" aria-label="Язык сайта"><a href="/en/" lang="en" hreflang="en" aria-label="Сайт на английском">EN</a></div>
+      </nav>
+    </header>
+  <main id="main" class="guide-page wrap">
+    <nav class="guide-breadcrumb" aria-label="Путь к гайду">
+      <a href="/guides/">Гайды</a>
+      <span aria-hidden="true">/</span>
+      <a href="/guides/#editors">Свои правила и материалы</a>
+    </nav>
+    <header class="guide-article-intro">
+      <h1>Редактор состояний</h1>
+      <p>Создавайте временные эффекты, условия их применения и стадии.</p>
+      <nav class="guide-device-switch" aria-label="Устройство"><a href="/guides/phone/condition-editor/">Телефон</a><a href="/guides/condition-editor/" aria-current="page">Планшет и компьютер</a></nav>
+    </header>
+    <div class="guide-layout">
+      <aside class="guide-side">
+        <nav aria-labelledby="toc-title">
+          <h2 id="toc-title">В этом гайде</h2>
+          <ol>
+            <li><a href="#part-1">Общее</a></li>
+            <li><a href="#part-2">Эффекты</a></li>
+            <li><a href="#part-3">Условия применения и стадии</a></li>
+            <li><a href="#part-4">Проверьте полный цикл</a></li>
+          </ol>
+        </nav>
+      </aside>
+      <article class="guide-article">
+        <p class="guide-entry">Переключайте <strong>«Общее»</strong>, <strong>«Эффекты»</strong> и условия из навигации редактора. Сверьте сводку эффектов и параметры стадий в форме до сохранения.</p>
+        <h2 id="part-1">Общее</h2>
+<p>Укажите название, источник, описание и визуальное обозначение. Игроку должно быть понятно, от чего возникло состояние и что проверить при завершении.</p>
+<figure class="guide-image guide-image--wide">
+          <a href="/guides/images/condition-editor-wide-1.jpg" target="_blank" rel="noopener" aria-label="Увеличить снимок. Редактор состояний. Общие поля состояния и сводка справа.">
+            <img src="/guides/images/condition-editor-wide-1.jpg" alt="Редактор состояний. Общие поля состояния и сводка справа." width="1500" height="1000" loading="lazy" decoding="async">
+          </a>
+          <figcaption>Редактор состояний. Общие поля состояния и сводка справа.</figcaption>
+        </figure>
+<h2 id="part-2">Эффекты</h2>
+<ul>
+  <li><strong>Преимущество и помеха.</strong> Укажите область, на которую влияет состояние, например определённые атаки, проверки или спасброски. Если оба режима действуют на один бросок, результат будет обычным d20.</li>
+  <li><strong>Числовое изменение.</strong> Выберите параметр и способ изменения. Если значение зависит от ситуации, включите запрос числа при применении и проверьте ввод в пробном сценарии.</li>
+  <li><strong>Защиты и связанные состояния.</strong> Настройте нужный тип урона или ссылку на другую запись. Проверьте, какой эффект появляется вместе с основным.</li>
+  <li><strong>Длительность и периодичность</strong> определяют, когда действие начинается, повторяется или заканчивается. Проверяйте связанный источник, если состояние приходит из способности или заклинания.</li>
+</ul>
+<figure class="guide-image guide-image--wide">
+          <a href="/guides/images/condition-editor-wide-2.jpg" target="_blank" rel="noopener" aria-label="Увеличить снимок. Раздел «Эффекты» редактора состояний.">
+            <img src="/guides/images/condition-editor-wide-2.jpg" alt="Раздел «Эффекты» редактора состояний." width="1500" height="1000" loading="lazy" decoding="async">
+          </a>
+          <figcaption>Раздел «Эффекты» редактора состояний.</figcaption>
+        </figure>
+<h2 id="part-3">Условия применения и стадии</h2>
+<p>В <strong>«Условия применения»</strong> настройте ограничения и правила срабатывания для вашей записи. В <strong>«Стадии»</strong> включите требуемые ступени, выберите одну и отредактируйте её поля. Сравните эффекты двух соседних стадий и проверьте, что отображается активная ступень.</p>
+<h2 id="part-4">Проверьте полный цикл</h2>
+<p>Добавьте состояние через <strong>+</strong> на боевом листе. Проверьте число или стадию, если приложение их запрашивает. Посмотрите на изменившийся показатель и в конце снимите состояние. Проверьте, что его вклад исчез, а эффекты других источников остались.</p>
+<ul>
+  <li><a href="/guides/combat/">Бой, броски и отдых</a></li>
+  <li><a href="/guides/spell-editor/">Редактор заклинаний</a></li>
+</ul>
+        <nav class="guide-next" aria-label="Другие гайды">
+          <a href="/guides/#editors"><span>Все гайды раздела</span>Свои правила и материалы</a>
+          <a href="/guides/language-editor/"><span>Следующий гайд</span>Редактор языков</a>
+        </nav>
+      </article>
+    </div>
+  </main>
+  <footer class="footer wrap">
+      <div class="footer-social">
+        <div><p class="social-eyebrow">СЛЕДИТЕ ЗА ПРИКЛЮЧЕНИЕМ</p><p class="social-caption">Новости, гайды и обсуждения Grimoire</p>
+        </div>
+        <nav class="social-links" aria-label="Grimoire в соцсетях">
+          <a href="https://t.me/grimoireapp" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="m3 11 17-7-5 16-4-6-8-3Zm8 3 9-10"/></svg><span>Telegram</span><span class="social-arrow" aria-hidden="true">↗</span></a>
+          <a href="https://www.instagram.com/grimoire_application/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor" stroke="none"/></svg><span>Instagram</span><span class="social-arrow" aria-hidden="true">↗</span></a>
+          <a href="https://www.youtube.com/@Grimoireapp" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="m10 9 6 3-6 3V9Z"/></svg><span>YouTube</span><span class="social-arrow" aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+      <div class="footer-top"><a class="brand" href="/index.html">GRIMOIRE</a>
+        <nav class="footer-links" aria-label="Документы">
+          <a class="about-nav" href="/about/index.html">О проекте</a>
+          <a class="roadmap-nav" href="/roadmap/">Дорожная карта</a><a class="guides-nav" href="/guides/" aria-current="page">Гайды</a>
+          <a href="/privacy/index.html">Конфиденциальность</a>
+          <a href="/terms/index.html">Условия использования</a>
+          <a href="/licenses/index.html">Лицензии</a>
+          <a href="/support/index.html">Поддержка</a>
+        </nav>
+      </div>
+      <div class="footer-bottom"><span>© 2026 Grimoire. Независимый помощник для игр пятой редакции.</span><span><a href="/assets/CormorantGaramond-OFL.txt">Шрифт Cormorant Garamond · OFL 1.1</a></span>
+      </div>
+    </footer>
+</body>
+</html>
