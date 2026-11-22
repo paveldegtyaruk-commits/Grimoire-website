@@ -73,6 +73,35 @@
   font-weight: 650;
 }
 
+.guide-video {
+  margin-top: 18px;
+}
+
+.guide-video-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 7px 13px;
+  border: 1px solid var(--guide-divider);
+  color: var(--gold);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.guide-video-link:hover {
+  border-color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.guide-video small {
+  display: block;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+
 .guide-search label {
   display: block;
   margin-bottom: 8px;
